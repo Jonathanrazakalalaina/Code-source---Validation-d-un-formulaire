@@ -1,0 +1,39 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.form-container {
+    padding: 30px;
+}
+
+input {
+    outline: 0;
+    height: 35px;
+    width: 300px;
+    font-size: 1rem;
+    padding: 0 10px;
+    border-radius: 0px;
+    border: 2px solid #dddddd;
+}
+
+label {
+    font-size: 1.5rem;
+}
